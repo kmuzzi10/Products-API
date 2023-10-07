@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import mongoose, { mongo } from "mongoose";
 import 'dotenv/config';
-
+//import statement ends
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
